@@ -16,6 +16,10 @@ class MainScreenViewController: UIViewController {
   
   var backgroundImage = UIImageView()
   
+  override var preferredStatusBarStyle: UIStatusBarStyle {
+    return .lightContent
+  }
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
@@ -34,6 +38,7 @@ class MainScreenViewController: UIViewController {
     
     dailyActivityButton.backgroundColor = UIColor.yellow
     dailyActivityButton.setTitle("Daily Activity", for: .normal)
+    dailyActivityButton.setTitleColor(UIColor.black, for: .normal)
     
     view.addSubview(backgroundImage)
     view.addSubview(buttonsContainer)

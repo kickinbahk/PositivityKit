@@ -60,13 +60,22 @@ class MainScreenViewController: UIViewController {
     buttonsContainer.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0).isActive = true
     
     selfieButton.translatesAutoresizingMaskIntoConstraints = false
+    selfieButton.widthAnchor.constraint(equalToConstant: (view.bounds.width / 2) - 30).isActive = true
     selfieButton.leadingAnchor.constraint(equalTo: buttonsContainer.leadingAnchor,
                                           constant: 20).isActive = true
-    selfieButton.trailingAnchor.constraint(equalTo: buttonsContainer.trailingAnchor,
-                                           constant: -20).isActive = true
-    selfieButton.topAnchor.constraint(equalTo: buttonsContainer.topAnchor, constant: 20).isActive = true
-    selfieButton.bottomAnchor.constraint(equalTo: buttonsContainer.bottomAnchor, constant: -20).isActive = true
+    selfieButton.topAnchor.constraint(equalTo: buttonsContainer.topAnchor,
+                                      constant: 20).isActive = true
+    selfieButton.bottomAnchor.constraint(equalTo: buttonsContainer.bottomAnchor,
+                                         constant: -20).isActive = true
     
+    dailyActivityButton.translatesAutoresizingMaskIntoConstraints = false
+    dailyActivityButton.widthAnchor.constraint(equalToConstant: (view.bounds.width / 2) - 30).isActive = true
+    dailyActivityButton.trailingAnchor.constraint(equalTo: buttonsContainer.trailingAnchor,
+                                           constant: -20).isActive = true
+    dailyActivityButton.topAnchor.constraint(equalTo: buttonsContainer.topAnchor,
+                                             constant: 20).isActive = true
+    dailyActivityButton.bottomAnchor.constraint(equalTo: buttonsContainer.bottomAnchor,
+                                                constant: -20).isActive = true
     
   }
 

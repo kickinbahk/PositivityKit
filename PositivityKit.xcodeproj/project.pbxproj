@@ -10,7 +10,7 @@
 		455F234B226475427DDD6A9E /* Pods_PositivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A637C5C35D1480F3FF9519 /* Pods_PositivityKit.framework */; };
 		66F765153C5F2A0BFAB8CC8C /* Pods_PositivityKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5B75D79B62DBC93CB07C5C /* Pods_PositivityKitTests.framework */; };
 		EB8329751ECB3B00009D60E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8329741ECB3B00009D60E4 /* AppDelegate.swift */; };
-		EB8329771ECB3B00009D60E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8329761ECB3B00009D60E4 /* ViewController.swift */; };
+		EB8329771ECB3B00009D60E4 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8329761ECB3B00009D60E4 /* MainScreenViewController.swift */; };
 		EB83297A1ECB3B00009D60E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8329781ECB3B00009D60E4 /* Main.storyboard */; };
 		EB83297D1ECB3B00009D60E4 /* PositivityKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB83297B1ECB3B00009D60E4 /* PositivityKit.xcdatamodeld */; };
 		EB83297F1ECB3B00009D60E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB83297E1ECB3B00009D60E4 /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 		BB4B13A1EBE375AFB92F6ECA /* Pods-PositivityKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PositivityKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PositivityKitTests/Pods-PositivityKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		EB8329711ECB3B00009D60E4 /* PositivityKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PositivityKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8329741ECB3B00009D60E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB8329761ECB3B00009D60E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB8329761ECB3B00009D60E4 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		EB8329791ECB3B00009D60E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB83297C1ECB3B00009D60E4 /* PositivityKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PositivityKit.xcdatamodel; sourceTree = "<group>"; };
 		EB83297E1ECB3B00009D60E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				EB8329741ECB3B00009D60E4 /* AppDelegate.swift */,
-				EB8329761ECB3B00009D60E4 /* ViewController.swift */,
+				EB8329761ECB3B00009D60E4 /* MainScreenViewController.swift */,
 				EB8329781ECB3B00009D60E4 /* Main.storyboard */,
 				EB83297E1ECB3B00009D60E4 /* Assets.xcassets */,
 				EB8329801ECB3B00009D60E4 /* LaunchScreen.storyboard */,
@@ -336,7 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB83297D1ECB3B00009D60E4 /* PositivityKit.xcdatamodeld in Sources */,
-				EB8329771ECB3B00009D60E4 /* ViewController.swift in Sources */,
+				EB8329771ECB3B00009D60E4 /* MainScreenViewController.swift in Sources */,
 				EB8329751ECB3B00009D60E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -551,6 +551,7 @@
 				EB8329931ECB3B01009D60E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB8329941ECB3B01009D60E4 /* Build configuration list for PBXNativeTarget "PositivityKitTests" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +560,7 @@
 				EB8329961ECB3B01009D60E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
